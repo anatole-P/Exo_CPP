@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1612802719 source:c:\users\render\documents\github\exo_cpp\tp_cpp\src\zombie.cpp
+	"Zombie.h"
+
+1612802171 c:\users\render\documents\github\exo_cpp\tp_cpp\include\zombie.h
+	<string>
+	<iostream>
+	<random>
+	<ctime>
+	<stdlib.h>
+
+1612802692 source:c:\users\render\documents\github\exo_cpp\tp_cpp\main.cpp
+	"Zombie.h"
+
