@@ -25,7 +25,7 @@ class Zombie
     public:
 //CONSTRUCTEURS
         Zombie();
-
+        Zombie(int s,int d,string n);
 
 //DESTRUCTEUR
         ~Zombie();
@@ -42,6 +42,10 @@ class Zombie
     //GETTER/SETTER DEGATS
 	int getDegats() const;
 	void setDegats(int d);
+
+	//GETTER/SETTER EXPLOSION
+	bool getExplose () const;
+	void setExplose(int expl);
 
 
     void showInfos() const;

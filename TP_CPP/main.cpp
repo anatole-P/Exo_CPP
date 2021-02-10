@@ -1,4 +1,5 @@
 #include "Zombie.h"
+#include "Tank.h"
 
 using namespace std;
 
@@ -14,12 +15,20 @@ int main()
 
 
     Zombie n2;
+    n2.setNom("Wow");
     n2.setDegats(10);
-    n2.setNom("WoW");
     n2.setPv(1000);
 
     n2.showInfos();
 
+    Bomber B;
+    B.setDegats(9);
+    B.setPv(99);
+    B.setNom("Boomer");
+    B.setExplose(9);
+    B.showInfos();
+    cout<<"Degats d'explosion :"<<Bomber.getExplose()<<endl;
 
+    Tank t1;
     return 0;
 }

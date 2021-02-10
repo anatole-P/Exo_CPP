@@ -36,6 +36,12 @@ void Zombie::setDegats(int d) {
 		degats = d;
 	}
 }
+int Zombie::getDegats() const
+{
+	return degats;
+}
+
+
 string Zombie::getNom() const
 {
 	return nom;
@@ -46,10 +52,6 @@ void Zombie::setNom(string n)
 }
 
 
-int Zombie::getDegats() const
-{
-	return degats;
-}
 
 
 void Zombie::showInfos() const
