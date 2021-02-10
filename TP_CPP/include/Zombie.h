@@ -23,15 +23,15 @@ class Zombie
         string nom= "Défault";
 
     public:
-//CONSTRUCTEURS
+    //CONSTRUCTEURS
         Zombie();
         Zombie(int s,int d,string n);
 
-//DESTRUCTEUR
+    //DESTRUCTEUR
         ~Zombie();
 
 
-//GETTER/SETTER PV
+    //GETTER/SETTER PV
 	int getPv() const;
 	void setPv(int s);
 
@@ -45,7 +45,7 @@ class Zombie
 
 	//GETTER/SETTER EXPLOSION
 	bool getExplose () const;
-	void setExplose(int expl);
+	void setExplose(int expl );
 
 
     void showInfos() const;
